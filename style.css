@@ -62,7 +62,7 @@ h1 {margin-bottom: 50px;}
 /* Banner behind logo settings */
 .homeBanner {
     position: relative;
-    background: url('images/WUP!-Banner.jpeg') no-repeat center center; 
+    background: url('images/banners/WUP!-Banner.jpeg') no-repeat center center; 
     background-size: cover;
     padding-top: 56.25%; /* This controls the aspect ratio */
     width: 100%;
@@ -72,7 +72,7 @@ h1 {margin-bottom: 50px;}
 
 .showBanner {
     position: relative;
-    background: url('images/WUP!-Live.png') no-repeat center center; 
+    background: url('images/banners/WUP!-Live-Banner.png') no-repeat center center; 
     background-size: cover;
     padding-top: 75%; /* This controls the aspect ratio */
     width: 100%;
@@ -82,7 +82,7 @@ h1 {margin-bottom: 50px;}
 
 .musicBanner {
     position: relative;
-    background: url('images/recordingsBanner.png') no-repeat center center; 
+    background: url('images/banners/Recordings-Banner.png') no-repeat center center; 
     background-size: cover;
     padding-top: 25%; /* This controls the aspect ratio */
     width: 100%;
