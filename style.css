@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'MuseoModerno', cursive;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {margin-bottom: 50px;}
+
+/* Image & Video Settings */
+
+
+#videoMain {
+    margin-bottom: 100px;
+}
+
+/* Footer Settings */
+.socials {
+    width: 3%;
+    height: auto;
+}
+
+@media (max-width: 1200px) {
+    .socials{width: 5%;}
+}
+
+@media (max-width: 576px) {
+    .socials{width: 8%;}
+}
+
+.credits {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+/* Music Page Settings */
+.soundcloudLogo {
+    width: 10%;
+    margin-bottom: 50px;
+}
+
+.aspect-ratio-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+
+.overview {
+    position: absolute;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    left: 0;
+}
+
+/* Banner behind logo settings */
+.homeBanner {
+    position: relative;
+    background: url('images/WUP!-Banner.jpeg') no-repeat center center; 
+    background-size: cover;
+    padding-top: 56.25%; /* This controls the aspect ratio */
+    width: 100%;
+    margin-top: 55px; /* Height of navbar */
+    margin-bottom: 50px;
+}
+
+.showBanner {
+    position: relative;
+    background: url('images/WUP!-Live.png') no-repeat center center; 
+    background-size: cover;
+    padding-top: 75%; /* This controls the aspect ratio */
+    width: 100%;
+    margin-top: 55px; /* Height of navbar */
+    margin-bottom: 50px;
+}
+
+.musicBanner {
+    position: relative;
+    background: url('images/recordingsBanner.png') no-repeat center center; 
+    background-size: cover;
+    padding-top: 25%; /* This controls the aspect ratio */
+    width: 100%;
+    margin-top: 55px; /* Height of navbar */
+    margin-bottom: 50px;
+}
+
+.logoMain {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    margin: 0 auto; /* Adjust the bottom margin as needed */
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        height: 150px; /* Adjust this to control the height of the banner on small screens */
+    }
+}
+
+/* Show Page Settings */
+.show {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-bottom: 20px; /* Add some space between shows */
+}
+
+.show-date, .show-venue, .show-city {
+    flex: 1;
+    text-align: center;
+}
+
+/* Mobile Show Page Settings */
+.show {
+    display: flex;
+    flex-direction: row; /* Display the items in a row by default */
+    justify-content: space-between;
+    margin-bottom: 20px; /* Add some space between shows */
+}
+
+.show-date, .show-venue, .show-city {
+    flex: 1;
+    text-align: center;
+}
+
+/* Change the layout on screens that are 600px or smaller */
+@media (max-width: 600px) {
+    #upcoming-shows-header {
+        text-align: left; 
+        padding-left: 15px;
+    }
+
+    .show {
+        flex-direction: column; /* Display the items in a column */
+    }
+
+    .show-date, .show-venue, .show-city {
+        text-align: left;
+    }
+}
