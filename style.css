@@ -147,3 +147,16 @@ h1 {margin-bottom: 50px;}
         text-align: left;
     }
 }
+
+/* Joey Page Settings */
+
+/* Gallery Settings */
+.lb-nav .lb-next {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+    background: url('path-to-your-lightbox2-images-folder/next.png') no-repeat right center;
+  }
