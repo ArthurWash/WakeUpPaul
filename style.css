@@ -119,6 +119,11 @@ h1 {margin-bottom: 50px;}
     text-align: center;
 }
 
+.no-shows {
+    justify-content: center;
+    align-items: center;
+}
+
 /* Mobile Show Page Settings */
 .show {
     display: flex;
