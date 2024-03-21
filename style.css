@@ -177,7 +177,10 @@ h1 {margin-bottom: 50px;}
 @media (max-width: 767px) {
     #caitiBio, .bandBioPics {
         border-radius: 0;
-        margin: 0 0;
+    }
+
+    .col-md-6.text-center {
+        padding-right: 0;
     }
 }
 
