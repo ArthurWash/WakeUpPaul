@@ -154,7 +154,14 @@ h1 {margin-bottom: 50px;}
 }
 
 /* About Page Settings */
-#caitiBio, .bandBioPics {border-radius: 10px;}
+#caitiBio, .bandBioPics {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#caitiBio:hover, .bandBioPics:hover {
+    transform: scale(1.1);
+}
 
 @media (max-width: 2000px) {
 
@@ -174,9 +181,12 @@ h1 {margin-bottom: 50px;}
     }
 }
 
+/* Mobile About Page Settings */
 @media (max-width: 767px) {
     #caitiBio, .bandBioPics {
         border-radius: 0;
+        transition: none;
+        transform: none;
     }
 
     .col-md-6.text-center {
