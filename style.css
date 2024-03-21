@@ -186,6 +186,9 @@ h1 {margin-bottom: 50px;}
     #caitiBio, .bandBioPics {
         border-radius: 0;
         transition: none;
+    }
+
+    #caitiBio:hover, .bandBioPics:hover {
         transform: none;
     }
 
