@@ -72,7 +72,7 @@ h1 {margin-bottom: 50px;}
 
 .showBanner {
     position: relative;
-    background: url('images/banners/WUP!-Live-Banner.png') no-repeat center center; 
+    background: url('images/banners/WUP!-Live-Banner.webp') no-repeat center center; 
     background-size: cover;
     padding-top: 75%; /* This controls the aspect ratio */
     width: 100%;
