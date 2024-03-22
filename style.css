@@ -197,6 +197,11 @@ h1 {margin-bottom: 50px;}
     }
 }
 
+/* Contact Page Settings */
+svg {
+    fill: white;
+    width: 150px;
+}
 
 /* Gallery Settings */
 .lb-nav .lb-next {
