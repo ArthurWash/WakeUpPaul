@@ -1,7 +1,6 @@
 // Array of show data
 var shows = [
-    { date: new Date('2024-03-22T20:00:00'), venue: 'Crossroads @ 8pm', city: 'Garwood, NJ' },
-    { date: new Date('2024-03-27T19:00:00'), venue: 'Alpha Wave Studios Open Mic @ 7pm', city: 'Whippany, NJ' },
+    { date: new Date('2024-06-14T18:00:00'), venue: 'Old Canal Inn @ Time TBD', city: 'Nutley, NJ' },
     // Add more shows as needed
 ];
 
