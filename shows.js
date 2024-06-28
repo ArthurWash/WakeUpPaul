@@ -1,5 +1,6 @@
 // Array of show data
 var shows = [
+    { date: new Date('2024-07-26T18:00:00'), venue: 'Old Canal Inn @ 8:00pm', city: 'Nutley, NJ' },
     { date: new Date('2024-08-11T18:30:00'), venue: 'Montclair Brewery @ 5:30pm', city: 'Montclair, NJ' },
     { date: new Date('2024-08-17T15:30:00'), venue: 'Jersey Girl Brewing @ 3:30pm', city: 'Mt. Olive, NJ' },
     // Add more shows as needed
