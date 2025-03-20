@@ -1,8 +1,6 @@
 // Array of show data
 var shows = [
-    { date: new Date('2025-03-01T21:30:00'), venue: 'Tavern on the Rocks @ 9:30pm', city: 'Rockaway, NJ' },
-    { date: new Date('2025-03-15T19:30:00'), venue: 'The Clubhouse @ 7:30pm', city: 'Fairfield, NJ' },
-    { date: new Date('2025-03-19T21:15:00'), venue: 'Pino\'s Wine Cellar @ 9:15pm', city: 'Highland Park, NJ' },
+    { date: new Date('2025-03-20T21:15:00'), venue: 'Pino\'s Wine Cellar @ 9:15pm', city: 'Highland Park, NJ' },
     { date: new Date('2025-04-19T21:30:00'), venue: 'Tavern on the Rocks @ 9:30pm', city: 'Rockaway, NJ' },
     { date: new Date('2025-05-17T21:30:00'), venue: 'Montclair Porchfest @ TBD', city: 'Montclair, NJ' },
     // Add more shows as needed
