@@ -1,7 +1,6 @@
 // Array of show data
 var shows = [
-    { date: new Date('2025-06-20T19:00:00'), venue: 'Four City Brewing @ 7:00pm', city: 'Orange, NJ' },
-    { date: new Date('2025-07-18T20:00:00'), venue: 'Adam\'s Beer Garden @ 8:00pm', city: 'Rockaway, NJ' },
+    { date: new Date('2025-08-09T19:30:00'), venue: 'Montclair Brewery @ 7:30pm', city: 'Montclair, NJ' },
     { date: new Date('2025-09-06T21:30:00'), venue: 'Caldwell Porchfest @ TBD', city: 'Caldwell, NJ' },
     // Add more shows as needed
 ];
