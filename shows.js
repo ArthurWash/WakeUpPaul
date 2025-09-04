@@ -1,7 +1,7 @@
 // Array of show data
 var shows = [
-    { date: new Date('2025-08-09T19:30:00'), venue: 'Montclair Brewery @ 7:30pm', city: 'Montclair, NJ' },
-    { date: new Date('2025-09-06T21:30:00'), venue: 'Caldwell Porchfest @ TBD', city: 'Caldwell, NJ' },
+    { date: new Date('2025-09-06T15:30:00'), venue: 'Caldwell Porchfest @ 3:30PM', city: 'Caldwell, NJ' },
+    { date: new Date('2025-10-18T18:30:00'), venue: 'Jersey Girl Brewing @ 6:30PM', city: 'Hackettstown, NJ' }, 
     // Add more shows as needed
 ];
 
