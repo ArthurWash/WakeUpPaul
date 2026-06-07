@@ -1,7 +1,7 @@
 // Array of show data
 var shows = [
-    { date: new Date('2026-07-11T19:30:00'), venue: 'Montclair Brewery @ 7:30PM', city: 'Montclair, NJ' },
     { date: new Date('2026-08-01T19:30:00'), venue: 'Montclair Brewery @ 7:30PM', city: 'Montclair, NJ' },
+    { date: new Date('2026-09-18T19:30:00'), venue: 'Montclair Brewery @ 7:30PM', city: 'Montclair, NJ' },
     { date: new Date('2026-12-05T21:30:00'), venue: 'Tavern on the Rocks @ 9:30PM', city: 'Rockaway, NJ' },
     // Add more shows as needed
 ];
