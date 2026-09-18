@@ -19,6 +19,29 @@ h1 {margin-bottom: 50px;}
     margin-bottom: 100px;
 }
 
+.album-cover-section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.album-cover {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#outNow {
+    text-align: center;
+    font-size: clamp(1.8rem, 4vw, 3.5rem);
+    font-weight: 700;
+    line-height: 1.15;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    max-width: 900px;
+}
+
 /* Footer Settings */
 .socials {
     width: 3%;
